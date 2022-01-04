@@ -1,0 +1,147 @@
+#start_btn,
+#bombs_counter
+{
+    margin-top: 30px;
+    background-color: #a0e8d4;
+    border:1px solid #0dcaf0;
+    
+    border-radius: 0.5rem;
+}
+
+#bombs_counter
+{
+    height: 38px;
+    width: 40px;
+}
+
+#bombs_counter p
+{
+    margin-top: 5px;
+}
+
+
+
+#grid_border
+{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ff9f9f;
+    outline: 1px solid #ff7575;
+}
+
+.box
+{
+    height: 25px;
+    width: 25px;
+    border: 1px solid #ff9f9f;
+    background-color: #ffd8b6;
+    float: left;
+}
+
+.grid_row
+{
+    height: 25px;
+}
+
+.teemo_flag
+{
+    background-image: url("../img/teemo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #ffd5e1;
+}
+
+.count_one
+{
+    color: lightcoral;
+    text-align: center;
+    font-weight: bold;
+}
+
+.count_two
+{
+    color: #c131ea;
+    text-align: center;
+    font-weight: bold;
+}
+
+.count_three 
+{
+    color: #6764d2;
+    text-align: center;
+    font-weight: bold;
+}
+
+.count_four
+{
+    color: #75bfff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.count_five
+{
+    color: #1f6804;
+    text-align: center;
+    font-weight: bold;
+}
+
+.count_six
+{
+    color: #7e8208;
+    text-align: center;
+    font-weight: bold;
+}
+
+.count_seven
+{
+    color: #b3790a;
+    text-align: center;
+    font-weight: bold;
+}
+
+.count_eight
+{
+    color: #b70a0a;
+    text-align: center;
+    font-weight: bold;
+}
+
+.opened
+{
+    background-color: #ffd8b68c;
+}
+
+.open_bombs
+{
+    background-color: orange!important;
+    background-image: url("../img/mushroom.png")!important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wrong_bomb
+{
+    background-color: red!important;
+}
+
+
+
+
+.winner_box
+{
+    position: relative;
+    top: -50px;
+    display: none;
+}
+
+
+#winner_banner
+{
+    opacity: 0;
+    width: 40%;
+    height: 60px;
+    background-color: #aed983;
+    font-size: 30px;
+}
+
